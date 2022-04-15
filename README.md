@@ -29,6 +29,10 @@ Le capteur de gaz détectera le niveau de fuite de gaz et affichera un message e
 
 
 ## 3D modeling
+###C'est quoi une maison connéctée
+
+![alt text](https://github.com/djibykc/IOT-BIG-DATA-5IABD2/blob/main/images/C-est-quoi-une-maison-connectee.jpeg?raw=true "C-est-quoi-une-maison-connectee")
+
 
 - Lien : https://www.tinkercad.com/things/
 - Rendu : 
