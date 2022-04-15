@@ -1,41 +1,41 @@
 // include the library code:
 #include <LiquidCrystal.h>
 
-// initialize the library with the numbers of the interface pins
+// initialiser la bibliothèque avec les numéros des broches de l'interface
 LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
 
-//For ultrasound sensor
+//Pour capteur à ultrasons
 int distanceThreshold = 0;
 int cm = 0;
 int inches = 0;
 
-//for Relay Control
+//pour le contrôle de relais
 int releNO = 13;
 int inputPir = 8;
 int val = 0;
 int resuldoSensorLDR;
 int sensorLDR = A0;
 
-//For Gas sensor
+//Pour capteur de gaz
 int const PINO_SGAS = A1;
 
 
 long readUltrasonicDistance(int triggerPin, int echoPin)
 {
-  pinMode(triggerPin, OUTPUT);  // Clear the trigger
+  pinMode(triggerPin, OUTPUT);  // Effacer le déclencheur
   digitalWrite(triggerPin, LOW);
   delayMicroseconds(2);
-  // Sets the trigger pin to HIGH state for 10 microseconds
+  // Définit la broche de déclenchement à l'état HIGH pendant 10 microsecondes
   digitalWrite(triggerPin, HIGH);
   delayMicroseconds(10);
   digitalWrite(triggerPin, LOW);
   pinMode(echoPin, INPUT);
-  // Reads the echo pin, and returns the sound wave travel time in microseconds
+  // Lit la broche d'écho et renvoie le temps de parcours de l'onde sonore en microsecondes
   return pulseIn(echoPin, HIGH);
 }
 
 void setup() {
-  // set up the LCD's number of columns and rows:
+  // configurer le nombre de colonnes et de lignes de l'écran LCD:
   lcd.begin(16, 2);
   
   pinMode(releNO, OUTPUT);
@@ -45,16 +45,16 @@ void setup() {
 }
 
 void loop() {
-  // set threshold distance to activate LEDs
+  // Définir la distance de seuil pour activer les LED
   distanceThreshold = 350;
   // measure the ping time in cm
   cm = 0.01723 * readUltrasonicDistance(7, 6);
   // convert to inches by dividing by 2.54
   inches = (cm / 2.54);
   
-    lcd.setCursor(0,0); // Sets the location at which subsequent text written to the LCD will be displayed
-  lcd.print("D:"); // Prints string "Distance" on the LCD
-  lcd.print(cm); // Prints the distance value from the sensor
+    lcd.setCursor(0,0); // Définit l'emplacement auquel le texte ultérieur écrit sur l'écran LCD sera affiché
+  lcd.print("D:"); // Imprime la chaîne "Distance" sur l'écran LCD
+  lcd.print(cm); // Imprime la valeur de distance du capteur
   lcd.print("cm");
   delay(10);
   
