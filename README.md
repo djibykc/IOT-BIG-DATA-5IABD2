@@ -55,7 +55,6 @@ Le capteur de gaz détectera le niveau de fuite de gaz et affichera un message e
 - PIR
 - LDR
 - Dc power source (Any 12v)
-- Relay Board of 2 channel
 - Écran LCD 16*2 
 - Source d'alimentation CC (Tout 12v)
 - Carte relais de 2 canaux
