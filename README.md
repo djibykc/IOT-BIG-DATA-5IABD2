@@ -54,7 +54,6 @@ Le capteur de gaz détectera le niveau de fuite de gaz et affichera un message e
 - DÉTÉCTEUR DE FUMÉE
 - PIR
 - LDR
-- ULTRASONIC
 - Dc power source (Any 12v)
 - Relay Board of 2 channel
 - Écran LCD 16*2 
