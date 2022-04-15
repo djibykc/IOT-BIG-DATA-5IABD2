@@ -41,7 +41,7 @@ Le capteur de gaz détectera le niveau de fuite de gaz et affichera un message e
 - Lien : https://www.tinkercad.com/things/8hh02a1uZlA
 - Rendu : 
 
-![alt text](https://github.com/djibykc/IOT-BIG-DATA-5IABD2/tree/main/images/tinkercad.png?raw=true "TinkerCad")
+![alt text](https://github.com/djibykc/IOT-BIG-DATA-5IABD2/blob/main/images/tinkercadMMC.png?raw=true "TinkerCad")
 
 
 ## Pièces
