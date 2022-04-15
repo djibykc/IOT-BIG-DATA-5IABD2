@@ -11,7 +11,7 @@ For school project
 - Ismail MANÉ
 - Alpha SOW
 
-## Présentation : Ma Maison connectée
+## Présentation : MMC
 
 Ma maison connectée est un projet IoT qui permet à ses utilisateurs de disposer d'un espace de vie idéal et confortable.
 
