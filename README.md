@@ -41,6 +41,8 @@ Le capteur de gaz détectera le niveau de fuite de gaz et affichera un message e
 
 ![alt text](https://github.com/djibykc/IOT-BIG-DATA-5IABD2/tree/main/images/model3D02.png?raw=true "3D modeling")
 
+![alt text](https://github.com/djibykc/IOT-BIG-DATA-5IABD2/tree/main/images/model3D03.png?raw=true "3D modeling")
+
 ## TinkerCad
 - Lien : https://www.tinkercad.com/things/hmXcXTGqKur-ma-maison-connectee/editel?sharecode=q673tlGWTQjFFjTj_9Vh7nI094h60LqgwqZvvPU5tNw
 - Rendu : 
