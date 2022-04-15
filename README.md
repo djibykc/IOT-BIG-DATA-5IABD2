@@ -33,15 +33,15 @@ Le capteur de gaz détectera le niveau de fuite de gaz et affichera un message e
 - Lien : https://www.tinkercad.com/things/hXSyoJA5Mw5-brilliant-amberis-bigery/edit?sharecode=cppk7CrqiHLTV_Y1zzJm6E3CoDY6nVxdb4KLX2TpAns
 - Rendu : 
 
-![alt text](https://github.com/Aminatak/IOT-BIG-DATA/blob/main/images/model3D01.png?raw=true "3D modeling")
+![alt text](https://github.com/djibykc/IOT-BIG-DATA-5IABD2/tree/main/images/model3D01.png?raw=true "3D modeling")
 
-![alt text](https://github.com/Aminatak/IOT-BIG-DATA/blob/main/images/model3D02.png?raw=true "3D modeling")
+![alt text](https://github.com/djibykc/IOT-BIG-DATA-5IABD2/tree/main/images/model3D02.png?raw=true "3D modeling")
 
 ## TinkerCad
 - Lien : https://www.tinkercad.com/things/8hh02a1uZlA
 - Rendu : 
 
-![alt text](https://github.com/Aminatak/IOT-BIG-DATA/blob/main/images/tinkercad.png?raw=true "TinkerCad")
+![alt text](https://github.com/djibykc/IOT-BIG-DATA-5IABD2/tree/main/images/tinkercad.png?raw=true "TinkerCad")
 
 
 ## Pièces
